@@ -9,5 +9,5 @@ docker build -t md2pdf .
 
 ## Usage
 ```shell
-docker run -it  -v $(pwd):/src -u $(id -u ${USER}):$(id -g ${USER}) -h $(hostname) md2pdf <markdown file>
+docker run -it  -v $(pwd):/src -u $(id -u ${USER}):$(id -g ${USER}) -h $(hostname) ghcr.io/nicovince/md2pdf:main <markdown file>
 ```
